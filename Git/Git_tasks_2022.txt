@@ -1,0 +1,6 @@
+1. Create a new repository and do atleast one commit?
+2. Create new branch in the same repository (develop)?
+3. Modify the same file and do the one more commit and verify the commits?
+4. Change it to new branch(develop) do one more commit?
+5. Push the changes from develop branch to remote repository?
+6. Revert the last commit remote repository changes ?
