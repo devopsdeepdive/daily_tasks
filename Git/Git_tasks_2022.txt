@@ -1,6 +1,37 @@
+
 1. Create a new repository and do atleast one commit?
 2. Create new branch in the same repository (develop)?
 3. Modify the same file and do the one more commit and verify the commits?
 4. Change it to new branch(develop) do one more commit?
 5. Push the changes from develop branch to remote repository?
 6. Revert the last commit remote repository changes ?
+
+
+command # vi new.txt
+
+        # git add new.txt
+
+        # git commit -m "New file has been added"
+
+        # git status
+
+Before git push into Remote repository, we have some changes in new.txt file.
+
+
+        # vi new.txt (new code added)
+
+        # git status (shows modified M before file name, means it turns into modified state)
+
+for that we need to re do again git add / git commit 
+
+or we can do it in a single command
+
+        # git commit -a -m "new changes added"
+
+-a - add ; -m - mofified; we can do it in a single command;
+
+        # git push new.txt
+
+Do practice above steps in git !!
+
+
